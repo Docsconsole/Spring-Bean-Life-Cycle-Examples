@@ -2,7 +2,7 @@
 Set of examples for Spring-Bean-Life-Cycle-Examples
 
 
-
+```
 package com.docsconsole.spring5.lifecycle.annotations.awareinterfaces;
 
 import org.springframework.context.annotation.ComponentScan;
@@ -282,5 +282,5 @@ public class MainAppClient {
 }
 
 
-
+```
 
