@@ -282,5 +282,91 @@ public class MainAppClient {
 }
 
 
+C:\...SPRING-BEAN-LIFE-CYCLE-EXAMPLES
+|   pom.xml
+|   Spring-Bean-Life-Cycle-Examples.iml
+|
++---.idea
+|       compiler.xml
+|       misc.xml
+|       uiDesigner.xml
+|       workspace.xml
+|
++---src
+|   +---main
+|   |   +---java
+|   |   |   \---com
+|   |   |       \---docsconsole
+|   |   |           \---spring5
+|   |   |               \---lifecycle
+|   |   |                   \---annotations
+|   |   |                       +---awareinterfaces
+|   |   |                       |       AppConfig.java
+|   |   |                       |       ASpringBean1.java
+|   |   |                       |       MainAppClient.java
+|   |   |                       |
+|   |   |                       +---callbackinterfaces
+|   |   |                       |       AppConfig.java
+|   |   |                       |       ASpringBean.java
+|   |   |                       |       MainAppClient.java
+|   |   |                       |
+|   |   |                       +---initdestroy
+|   |   |                       |       AppConfig.java
+|   |   |                       |       ASpringBean2.java
+|   |   |                       |       MainAppClient.java
+|   |   |                       |
+|   |   |                       \---postconstructpredestroy
+|   |   |                               AppConfig.java
+|   |   |                               ASpringBean3.java
+|   |   |                               MainAppClient.java
+|   |   |
+|   |   \---resources
+|   \---test
+|       \---java
+\---target
+    |   Spring-Bean-Life-Cycle-Examples-1.0-SNAPSHOT.jar
+    |
+    +---classes
+    |   \---com
+    |       \---docsconsole
+    |           \---spring5
+    |               \---lifecycle
+    |                   \---annotations
+    |                       +---awareinterfaces
+    |                       |       AppConfig.class
+    |                       |       ASpringBean1.class
+    |                       |       MainAppClient.class
+    |                       |
+    |                       +---callbackinterfaces
+    |                       |       AppConfig.class
+    |                       |       ASpringBean.class
+    |                       |       MainAppClient.class
+    |                       |
+    |                       +---initdestroy
+    |                       |       AppConfig.class
+    |                       |       ASpringBean2.class
+    |                       |       MainAppClient.class
+    |                       |
+    |                       \---postconstructpredestroy
+    |                               AppConfig.class
+    |                               ASpringBean3.class
+    |                               MainAppClient.class
+    |
+    +---generated-sources
+    |   \---annotations
+    +---maven-archiver
+    |       pom.properties
+    |
+    \---maven-status
+        \---maven-compiler-plugin
+            +---compile
+            |   \---default-compile
+            |           createdFiles.lst
+            |           inputFiles.lst
+            |
+            \---testCompile
+                \---default-testCompile
+                        inputFiles.lst
+
 ```
 
